@@ -14,8 +14,8 @@ Deve abrir a tela principal
     ...               udid=emulator-5554
     ...               autoGrantPermissions=true
 
-    Wait Until Page Contains    Yodapp
-    Wait Until Page Contains    Mobile Training
-    Wait Until Page Contains    by Papito
+    Wait Until Page Contains    Yodapp            10
+    Wait Until Page Contains    Mobile Training   10
+    Wait Until Page Contains    by Papito         10
 
     Close Application
